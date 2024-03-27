@@ -1,7 +1,7 @@
 # Template file for 'rspamd'
 pkgname=rspamd
-version=3.7.3
-revision=2
+version=3.8.4
+revision=1
 archs="x86_64* i686* aarch64* armv[67]* ppc64*"
 build_style=cmake
 configure_args="-DRSPAMD_USER=rspamd -DCONFDIR=/etc/rspamd
@@ -15,7 +15,7 @@ license="Apache-2.0"
 homepage="https://rspamd.com/"
 changelog="https://raw.githubusercontent.com/rspamd/rspamd/master/ChangeLog"
 distfiles="https://github.com/rspamd/rspamd/archive/${version}.tar.gz"
-checksum=4dbf64c48c63901a9d15d6c337509c1db7725ab88a7ce03f56eb4e12e3db5e84
+checksum=ebea263f60a3d6036c153df0766b4aa03690e8caf59946d24ee54d8bb595c75d
 system_accounts="rspamd"
 rspamd_homedir=/var/lib/rspamd
 conf_files="/etc/rspamd/*.conf /etc/rspamd/*.inc /etc/rspamd/modules.d/*.conf"
